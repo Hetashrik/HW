@@ -80,7 +80,7 @@ function Aboutus() {
         <p className="relative top-[1.8rem] text-center font-medium text-1xl">We have the best attorney for your</p>
         <p className="relative top-[1.8rem] text-center font-medium text-1xl">best support</p>
 
-        <div className="bg-[#8db2fa] shadow-md rounded-md p-[-0.75rem] relative top-14 sm:w-[295]">
+        <div className="bg-[#8db2fa] shadow-md rounded-md p-4 relative top-14 sm:w-[295px]">
           <p className="p-6 text-justify sm:w-295">{texts[currentTextIndex].text}</p>
           <button className="absolute top-1/2 left-2 transform -translate-y-1/2 sm:hidden" onClick={previousText}>
             <Image src={white_circle} alt="" width="40" height="50" className="relative right-2" />
