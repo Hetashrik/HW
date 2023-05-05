@@ -30,7 +30,7 @@ function Nav() {
                                         {navbar ? (
                                             <>
                                                 <FiX className="block h-6 w-6 relative -right-2" />
-                                                <div className="sm:hidden absolute top-[321px] left-0 right-0 bottom-0 flex w-[450px] h-[3864px] ease-in duration-300 mt-14 z-10 bg-black">
+                                                <div className="sm:hidden absolute top-[321px] left-0 right-0 bottom-0 flex w-[479px] h-[3864px] ease-in duration-300 mt-14 z-10 bg-black">
                                                     <ul>
                                                         <li className="bg-black ml-10 text-xl hover:text-gray-500 w-[450px] text-center relative right-14">Home</li>
                                                         <li className="bg-black ml-10 text-xl hover:text-gray-500 w-[450px] text-center relative right-14">More</li>
