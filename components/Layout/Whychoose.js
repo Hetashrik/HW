@@ -43,8 +43,8 @@ function WhyChoose() {
             <Image src={why_choose} alt="whychoose" width="100%" className="relative bottom-[12.8rem] h-[525px]" />
             
 
-            <p className="relative text-left -right-[0.5rem] bottom-[43rem] text-white font-medium text-2xl">Why choose Fintract Global</p>
-            <p className="relative text-left -right-[0.5rem] bottom-[43rem] mt-2 text-white font-medium text-3xl">Reason to Hire Us</p>
+            <p className="relative text-left -right-[0.5rem] bottom-[43rem] text-white font-medium text-2xl ml-4">Why choose Fintract Global</p>
+            <p className="relative text-left -right-[0.5rem] bottom-[43rem] mt-2 text-white font-medium text-3xl ml-4">Reason to Hire Us</p>
             <div className="flex relative right-[38.5rem] bottom-36">
                         <div className="ml-4">
 
