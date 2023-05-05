@@ -15,8 +15,8 @@ function AfterHeader() {
                 <p className="text-center text-white relative bottom-80 font-sans">embrace niche tools and technology</p>
             </div>
         </div>
-        <div className="hidden max-lg:block relative top-36 bg-cover w-[2050px]">
-        <Image src={Legal1} alt="FG_LOGO" height="220" className="w-[2060px] relative" />
+        <div className="hidden max-lg:block relative top-36 bg-cover">
+        <Image src={Legal1} alt="FG_LOGO" height="220" className="w-[1263px] relative" />
         </div>
         <div className="bg-[#332b27] md:hidden relative top-[8.6rem] h-[22rem]">
             <p className="text-left text-white font-medium text-5xl font-sans relative top-14 left-4 m-2">FINTRACT GLOBAL</p>
