@@ -173,7 +173,7 @@ Group
                 </div>
             </div>
 
-            <div className="hidden max-lg:block top-80 right-[1.75rem] relative w-[505px]">
+            <div className="hidden max-lg:block top-80 right-[1.75rem] relative w-[525px]">
             <p className="font-semibold text-2xl relative bottom-[23rem] text-center left-[2.8rem]">What we are expert at</p>
                     <p className="font-normal text-2xl relative bottom-[23rem] left-12 mt-5">Legal and Regulatory Practice Areas</p>
 
