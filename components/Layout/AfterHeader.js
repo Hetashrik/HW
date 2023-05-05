@@ -16,7 +16,7 @@ function AfterHeader() {
             </div>
         </div>
         <div className="hidden max-lg:block relative top-36 bg-cover w-[579px]">
-        <Image src={Legal1} alt="FG_LOGO" height="220" className=" relative w-[579]" />
+        <Image src={Legal1} alt="FG_LOGO" height="220" className=" relative w-[579px]" />
         </div>
         <div className="bg-[#332b27] md:hidden relative top-[8.6rem] h-[22rem]">
             <p className="text-left text-white font-medium text-5xl font-sans relative top-14 left-4 m-2">FINTRACT GLOBAL</p>
