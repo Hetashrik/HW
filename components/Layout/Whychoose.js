@@ -57,7 +57,7 @@ function WhyChoose() {
                             <p className="relative text-left left-[38.75rem] -top-[35rem] text-white mt-3">We commit to provide quality</p>
                             <p className="relative text-left left-[38.75rem] -top-[35rem] text-white">services to our clients.</p>
                         </div>
-                        <div className="ml-5">
+                        <div className="ml-8">
                             <p className="relative text-left left-[38.75rem] -top-[35rem] text-white font-medium text-3xl mt-12">02.</p>
                             <p className="relative text-left left-[38.75rem] -top-[35rem] text-white font-normal text-2xl mt-3">FOCUS ON YOU</p>
                             <p className="relative text-left left-[38.75rem] -top-[35rem] text-white mt-3">We do our best to achieve </p>
