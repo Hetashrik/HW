@@ -37,7 +37,7 @@ function WhyChoose() {
                 </div>
             </div>
 
-            <div className="hidden max-lg:block relative top-[35rem] bg-why-choose w-screen">
+            <div className="hidden max-lg:block top-[35rem] bg-why-choose relative w-[501px]">
             
 
             <Image src={why_choose} alt="whychoose" width="100%" className="relative bottom-[12.8rem] h-[500px]" />

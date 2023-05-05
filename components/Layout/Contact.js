@@ -62,7 +62,7 @@ function Contact() {
             </div>
 
 
-            <div className="hidden max-lg:block bg-black relative top-72 h-[1050px] w-screen">
+            <div className="hidden max-lg:block bg-black top-72 h-[1050px] relative w-[501px]">
                 <div className="relative top-12 left-7">
                     <Image src={FG_LOGO_white_4} width="75" height="100" />
                     <h1 className="text-white text-4xl mt-4">Fintract Global</h1>
