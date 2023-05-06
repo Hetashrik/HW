@@ -21,7 +21,7 @@ function Nav() {
                     <div>
                         <div className="flex justify-between">
                             <div className="flex">
-                                <div className="md:hidden absolute inset-y-0 left-0 flex items-center  bg-black block sm:hidden w-[108px]">
+                                <div className="md:hidden absolute inset-y-0 left-0 flex items-center  bg-black block sm:hidden w-[1560px]">
                                     <button
                                         className="relative -top-[19.5rem] inline-flex items-center justify-center p-2 rounded-md text-white bg-black w-[100%] h-[100%]"
                                         onClick={() => setNavbar(!navbar)}
