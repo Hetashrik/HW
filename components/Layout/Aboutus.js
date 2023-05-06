@@ -75,7 +75,7 @@ function Aboutus() {
         </div>
       </div>
 
-      <div className="bg-white top-[8.5rem] hidden max-lg:block relative w-[610px]">
+      <div className="bg-white top-[8.5rem] hidden max-lg:block relative w-[1435px]">
         <p className="relative top-6 text-center font-medium text-3xl">About Us</p>
         <p className="relative top-[1.8rem] text-center font-medium text-1xl">We have the best attorney for your</p>
         <p className="relative top-[1.8rem] text-center font-medium text-1xl">best support</p>
