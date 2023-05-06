@@ -18,10 +18,14 @@ function AfterHeader() {
         <div className="hidden max-lg:block relative top-36 bg-cover w-[1560px]">
         <Image src={Legal1} alt="FG_LOGO" height="220" className=" relative w-[1560px]" />
         </div>
-        <div className="bg-[#332b27] md:hidden top-[8.6rem] h-[22rem] relative w-[1560px]">
-            <p className="text-left text-white font-medium text-5xl font-sans relative top-14 left-4 m-2">FINTRACT GLOBAL</p>
-            <p className="text-left text-white text-2xl font-sans relative top-14 font-semibold left-4 m-5">WE HELP FOR PROFESSIONAL SERVICES WITH PERSONAL ATTENTION</p>
-            <p className="text-left text-white font-sans relative top-14 left-4 m-5">Our vision is to enrich customer and stakeholder experience, embrace niche tools and technology</p>
+        <div className="bg-[#332b27] md:hidden top-[8.4rem] h-[46rem] relative w-[1560px]">
+            <p className="text-left text-white font-medium text-9xl font-sans relative top-14 left-4 m-2 ml-11">FINTRACT</p>
+            <p className="text-left text-white font-medium text-9xl font-sans relative top-14 left-4 m-2 ml-11">GLOBAL</p>
+            <p className="text-left text-white text-5xl font-sans relative top-14 font-semibold left-4 m-5 mt-11 ml-11">WE HELP FOR PROFESSIONAL</p>
+            <p className="text-left text-white text-5xl font-sans relative top-14 font-semibold left-4 m-5 ml-11">SERVICES WITH PERSONAL</p>
+            <p className="text-left text-white text-5xl font-sans relative top-14 font-semibold left-4 m-5 ml-11">ATTENTION</p>
+            <p className="text-left text-white text-2xl font-sans relative top-14 left-4 ml-11 mt-11">Our vision is to enrich customer and stakeholder</p>
+            <p className="text-left text-white text-2xl font-sans relative top-14 left-4 ml-11">experience, embrace niche tools and technology</p>
         </div>
         </>
     );

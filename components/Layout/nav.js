@@ -53,7 +53,7 @@ function Nav() {
                                     <div className="w-px h-12 bg-[#676767] ml-1 mt-0 relative left-4 bottom-[19.5rem]"></div>
                                     <Image src={FG_LOGO_white_4} alt="FG_LOGO" width="32" height="32" className="w-[45px] h-[34.55px] relative -right-[4.5rem] mt-[1.75px] bottom-[23rem]" />
                                     {/* <button className="bg-blue-600 p-1 text-white mx-2 relative bottom-[19rem] -right-[10.5rem] w-[200px]">Log in</button> */}
-                                    <button className="bg-blue-600 px-3  text-white mx-2 relative bottom-[23rem] left-[83rem] w-[91px]"><p>Log in</p></button>
+                                    <button className="bg-blue-600 px-3  text-white mx-2 relative bottom-[23rem] left-[83rem] w-[91px]"><p>Login</p></button>
                                     <div>
                                         <input type="text" placeholder="Search" className="relative bottom-[18rem] right-[5rem] bg-white outline-none text-[#bbbaba] rounded-md p-1 leading-[2.15] w-[1400px]" />
                                         <div className="justify-end bg-[#FF8A00] w-[38px] h-[37px] rounded-md text-center mr-0.5 relative bottom-[20.7rem] left-[80rem]">
