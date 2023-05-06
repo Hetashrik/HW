@@ -47,15 +47,15 @@ function Nav() {
                                                 </ul> */}
                                             </>
                                         ) : (
-                                            <FiMenu className="block h-6 w-6 relative right-[22.8rem]" />
+                                            <FiMenu className="block h-6 w-6 relative -right-[3.2rem] bottom-[23rem]" />
                                         )}
                                     </button>
                                     <div className="w-px h-12 bg-[#676767] ml-1 mt-0 relative left-4 bottom-[19.5rem]"></div>
-                                    <Image src={FG_LOGO_white_4} alt="FG_LOGO" width="32" height="32" className="w-[45px] h-[34.55px] relative right-[46.5rem] mt-[1.75px] bottom-[19.25rem]" />
+                                    <Image src={FG_LOGO_white_4} alt="FG_LOGO" width="32" height="32" className="w-[45px] h-[34.55px] relative -right-[4.5rem] mt-[1.75px] bottom-[23rem]" />
                                     {/* <button className="bg-blue-600 p-1 text-white mx-2 relative bottom-[19rem] -right-[10.5rem] w-[200px]">Log in</button> */}
-                                    <button className="bg-blue-600 px-3  text-white mx-2 relative bottom-[19.75rem] left-[19rem] w-[91px]"><p>Log in</p></button>
+                                    <button className="bg-blue-600 px-3  text-white mx-2 relative bottom-[23rem] left-[83rem] w-[91px]"><p>Log in</p></button>
                                     <div>
-                                        <input type="text" placeholder="Search" className="relative bottom-[14.75rem] right-[5.75rem] bg-white outline-none text-[#bbbaba] rounded-md p-1 leading-[2.15] w-[1400px]" />
+                                        <input type="text" placeholder="Search" className="relative bottom-[18rem] right-[5rem] bg-white outline-none text-[#bbbaba] rounded-md p-1 leading-[2.15] w-[1400px]" />
                                         <div className="justify-end bg-[#FF8A00] w-[38px] h-[37px] rounded-md text-center mr-0.5 relative bottom-[17.5rem] left-[77.5rem]">
                                             <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-white w-6 h-6 mt-1 ml-2 relative top-1" height="1em" width="1em " xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
                                         </div>
