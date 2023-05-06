@@ -27,7 +27,7 @@ function BigCompany() {
             </div>
 
 
-            <div className="bg-[#595959] hidden max-lg:block top-[22.25rem] relative w-[525px]">
+            <div className="bg-[#595959] hidden max-lg:block top-[22.25rem] relative w-[610px]">
                 <h1 className="font-sans font-semibold text-2xl text-center text-white p-4 py-6">Many big company trusted us</h1>
                 <p className="text-white text-left p-4 relative left-3 ">Our clients include multinational corporations, financial institutions, private equity funds, domestic corporations, joint ventures, emerging companies, start-ups, non-governmental organizations, international organizations, individuals and government.</p>
 
