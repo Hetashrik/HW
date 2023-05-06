@@ -81,7 +81,7 @@ function Aboutus() {
         <p className="relative top-[1.8rem] text-center font-medium text-1xl">best support</p>
 
         <div className="bg-[#8db2fa] shadow-md rounded-md p-4 relative top-14 sm:w-[525px]">
-          <p className="p-6 text-justify sm:w-[525px]">{texts[currentTextIndex].text}</p>
+          <p className="p-6 text-justify">{texts[currentTextIndex].text}</p>
           <button className="absolute top-1/2 left-2 transform -translate-y-1/2 sm:hidden" onClick={previousText}>
             <Image src={white_circle} alt="" width="40" height="50" className="relative right-2" />
             <Image src={left_arrow} alt="" width="30" height="30" className="relative bottom-[2.1rem] right-1" />
