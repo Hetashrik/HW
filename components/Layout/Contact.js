@@ -80,7 +80,7 @@ function Contact() {
                         <Image src={fb_mv} width="150" height="100" />
                         <Image src={linkedin_mv} width="150" height="100" />
                     </div>
-                    <p className="text-[#6b6b6b] mt-10 relative right-20"></p>
+                    <p className="bg-[#ea580c] mt-10 relative right-20"></p>
                     <div className="flex mt-20 space-x-7">
                         <Image src={location} width="150" height="150" />
                         <p className="text-white relative top-[2.5rem] text-6xl">Address</p>
