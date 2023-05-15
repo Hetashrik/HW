@@ -6,7 +6,7 @@ function BeforeAboutus() {
     return (
       <>
       {/* <p></p> */}
-        <div className="hidden max-lg:block relative w-[1645px] -top-28">
+        <div className="hidden max-lg:block relative w-[1750px] -top-28">
         <Image className="h-[895px] relative top-20" src={Before_Aboutus} alt="Aboutus" width="1560" />
         <p className="text-7xl font-bold relative text-white bottom-[30rem] m-7">Over 10k reviews</p>
         <Image className="relative bottom-[30rem] m-7" src={Review} alt="Aboutus" />

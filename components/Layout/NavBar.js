@@ -33,7 +33,7 @@ function NavBar() {
                 </div>
             </nav >
 
-            <section className="bg-black hidden max-lg:block w-[1645px] h-[400px]">
+            <section className="bg-black hidden max-lg:block w-[1750px] h-[400px]">
                 <button type="button" onClick={() => setNavbar(!navbar)}>
                     <span className="sr-only">Open main menu</span>
                     <svg
@@ -56,7 +56,7 @@ function NavBar() {
                 <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" className="text-white w-[85px] h-[85px] mt-1 ml-2  justify-end bg-[#FF8A00] w-[85px] h-[85px] rounded-md text-center mr-0.5 relative bottom-[423px] left-[1370px]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
 
                 {navbar && (
-                    <div className="absolute z-10 top-0 left-0 w-[1645px] bg-black h-[10000px]">
+                    <div className="absolute z-10 top-0 left-0 w-[1750px] bg-black h-[10000px]">
                         <div className="px-2 pt-2 pb-3">
                         <Image src={close_menu} className="relative" width={200} onClick={() => setNavbar(!navbar)} />
                             <ul className="items-center relative top-72 left-96">
