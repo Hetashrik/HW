@@ -18,7 +18,7 @@ function BigCompany() {
             <div className="relative bottom-20 hidden sm:block">
                 <h1 className="font-sans font-bold text-3xl text-center">Many big company trusted us</h1>
             </div>
-            <div className="items-center relative bottom-16 left-4 hidden sm:block">
+            <div className="items-center relative bottom-16 left-32 hidden sm:block">
             <div className="flex">
 
                 <Image className="items-center relative left-[16rem] mt-16" src={PayPal_Logo} alt="PayPalLogo" width="35" height="50.27" />
