@@ -52,7 +52,7 @@ function NavBar() {
                 <div className="w-px h-[100px] bg-[#676767] ml-1 mt-0 relative bottom-[150px] left-48"></div>
                 <Image src={FG_LOGO_white_4} className="bottom-64 relative left-52"/>
                 <button className="bg-blue-600 px-3 py-2 leading-tight text-white mx-1 h-[100px] w-[250px] relative bottom-[365px] text-6xl left-[1223px]">Login</button>
-                <input type="text" placeholder="Search" className=" flex flex-row w-[1450px] h-[100px]  ml-[0px] mt-16  rounded-md  bg-white items-center mb-3  shadow-[0_0px_7px_-1px_rgba(135, 153, 219, 1)] bg-white outline-none text-[#BBBABA] flex-1 ml-4  mt-1 relative bottom-80 left-11" />
+                <input type="text" placeholder="Search" className=" flex flex-row w-[1450px] h-[100px]  ml-[0px] mt-16  rounded-md  bg-white items-center mb-3  shadow-[0_0px_7px_-1px_rgba(135, 153, 219, 1)] bg-white outline-none text-[#BBBABA] flex-1 ml-4  mt-1 relative bottom-80 left-11 text-7xl" />
                 <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" className="text-white w-[85px] h-[85px] mt-1 ml-2  justify-end bg-[#FF8A00] w-[85px] h-[85px] rounded-md text-center mr-0.5 relative bottom-[423px] left-[1370px]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
 
                 {navbar && (
