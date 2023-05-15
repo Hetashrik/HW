@@ -75,13 +75,15 @@ function Aboutus() {
         </div>
       </div>
 
-      <div className="bg-white top-[8.5rem] hidden max-lg:block relative w-[1560px]">
+      <div className="bg-white -top-[8.5rem] hidden max-lg:block relative w-[1560px]">
         <p className="relative top-6 text-center font-medium text-3xl">About Us</p>
         <p className="relative top-[1.8rem] text-center font-medium text-1xl">We have the best attorney for your</p>
         <p className="relative top-[1.8rem] text-center font-medium text-1xl">best support</p>
 
-        <div className="bg-[#8db2fa] shadow-md rounded-md p-4 relative top-14 sm:w-[1560px]">
-          <p className="p-6 text-justify">{texts[currentTextIndex].text}</p>
+        <section>
+
+        <div className=" w-[900px] bg-[#8db2fa] shadow-md rounded-md p-4 relative top-14 justify-center left-80">
+        <p className="p-16 text-justify text-4xl font-semibold">{texts[currentTextIndex].text}</p>
           <button className="absolute top-1/2 left-2 transform -translate-y-1/2 sm:hidden" onClick={previousText}>
             <Image src={white_circle} alt="" width="40" height="50" className="relative right-2" />
             <Image src={left_arrow} alt="" width="30" height="30" className="relative bottom-[2.1rem] right-1" />
@@ -99,6 +101,7 @@ function Aboutus() {
             <Image src={right_arrow} alt="" width="30" height="30" className="relative bottom-[2.1rem] left-3" />
           </button>
         </div>
+        </section>
       </div>
 
     </>
