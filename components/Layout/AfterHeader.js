@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Legal1 from "../../public/images/Legal1.png"
+import AfterHeader_mv from "../../public/images/AfterHeader_mv.png";
 
 function AfterHeader() {
     return (
@@ -15,8 +16,8 @@ function AfterHeader() {
                 <p className="text-center text-white relative bottom-80 font-sans">embrace niche tools and technology</p>
             </div>
         </div>
-        <div className="hidden max-lg:block relative top-36 bg-cover w-[1560px]">
-        <Image src={Legal1} alt="FG_LOGO" height="220" className=" relative w-[1560px]" />
+        <div className="hidden max-lg:block relative top-64 bg-cover w-[1560px]">
+        <Image src={AfterHeader_mv} alt="FG_LOGO" height="220" className=" relative w-[1560px]" />
         </div>
         <div className="bg-[#332b27] md:hidden top-[8.4rem] h-[46rem] relative w-[1560px]">
             <p className="text-left text-white font-medium text-9xl font-sans relative top-14 left-4 m-2 ml-11">FINTRACT</p>
