@@ -62,47 +62,52 @@ function Contact() {
             </div>
 
 
-            <div className="hidden max-lg:block bg-black top-72 h-[1050px] relative w-[1560px]">
-                <div className="relative top-12 left-7">
-                    <Image src={FG_LOGO_white_4} width="75" height="100" />
-                    <h1 className="text-white text-4xl mt-4">Fintract Global</h1>
-                    <p className="text-white mt-4"> At Fintract Global Ltd, we combine a cutting-edge</p>
-                    <p className="text-white">tech stack with exceptional talent from Europe,</p>
-                    <p className="text-white">Asia and America to leadchange in how financial</p>
-                    <p className="text-white">entities work. Headquartered in London,</p>
-                    <p className="text-white">Fintract Global develops cutting edge fintech</p>
-                    <p className="text-white"> and regtech products.</p>
+            <div className="hidden max-lg:block bg-black top-96 h-[2500px] relative w-[1560px]">
+                <div className="relative top-12 left-20">
+                    <Image src={FG_LOGO_white_4} width="200" height="225" />
+                    <h1 className="text-white text-9xl mt-20">Fintract Global</h1>
+                    <p className="text-white mt-20 text-5xl"> At Fintract Global Ltd, we combine a cutting-edge</p>
+                    <p className="text-white text-5xl">tech stack with exceptional talent from Europe,</p>
+                    <p className="text-white text-5xl">Asia and America to leadchange in how financial</p>
+                    <p className="text-white text-5xl">entities work. Headquartered in London,</p>
+                    <p className="text-white text-5xl">Fintract Global develops cutting edge fintech</p>
+                    <p className="text-white text-5xl"> and regtech products.</p>
 
-                    <div className="flex mt-12 space-x-3">
-                        <Image src={twitter_mv} width="40" height="40" />
-                        <Image src={insta_mv} width="40" height="40" />
-                        <Image src={fb_mv} width="40" height="40" />
-                        <Image src={linkedin_mv} width="40" height="40" />
+                    <div className="flex mt-20 space-x-7">
+                        <Image src={twitter_mv} width="150" height="100" />
+                        <Image src={insta_mv} width="150" height="100" />
+                        <Image src={fb_mv} width="150" height="100" />
+                        <Image src={linkedin_mv} width="150" height="100" />
                     </div>
-                    <p className="text-[#6b6b6b] mt-10">___________________________________________________</p>
-                    <div className="flex mt-9 space-x-3">
-                        <Image src={location} width="50" height="50" />
-                        <p className="text-white relative top-[0.5rem] text-3xl">Address</p>
+                    <p className="text-[#6b6b6b] mt-10 relative right-20"><hr /></p>
+                    <div className="flex mt-20 space-x-7">
+                        <Image src={location} width="150" height="150" />
+                        <p className="text-white relative top-[2.5rem] text-6xl">Address</p>
                     </div>
-                    <p className="text-white relative -bottom-1 left-14">Docklands Business Center 10-16</p>
-                    <p className="text-white relative -bottom-1 left-14">Tiller Road E14 8PX</p>
+                    <p className="text-white relative bottom-[1.75rem] left-[10.5rem] text-4xl">Docklands Business Center 10-16</p>
+                    <p className="text-white relative bottom-[1.75rem] left-[10.5rem] text-4xl">Tiller Road E14 8PX</p>
 
 
-                    <div className="flex mt-9 space-x-3">
-                        <Image src={call} width="50" height="50" />
-                        <p className="text-white relative top-[0.5rem] text-3xl">Phone</p>
+                    <div className="flex mt-20 space-x-7">
+                        <Image src={call} width="150" height="150" />
+                        <p className="text-white relative top-[2.5rem] text-6xl">Phone</p>
                     </div>
-                    <p className="text-white relative -bottom-1 left-14">+44-2037373227</p>
+                    <p className="text-white relative bottom-[1.75rem] left-[10.5rem] text-4xl">+44-2037373227</p>
 
 
-                    <div className="flex mt-9 space-x-3">
-                        <Image src={msg} width="50" height="50" />
-                        <p className="text-white relative top-[0.5rem] text-3xl">Email</p>
+                    <div className="flex mt-20 space-x-7">
+                        <Image src={msg} width="150" height="150" />
+                        <p className="text-white relative top-[2.5rem] text-6xl">Email</p>
                     </div>
-                    <p className="text-white relative -bottom-1 left-14">contact@fintractglobal.com</p>
+                    <p className="text-white relative bottom-[1.75rem] left-[10.5rem] text-4xl">contact@fintractglobal.com</p>
 
-                    <p className="text-[#6b6b6b] text-left text-0.5xl mt-9 relative right-6">Fintract Global takes your privacy very seriously. We may process your personal information for carefully considered and specific purposes which are in our interests and enable us to enhance the services we provide, but which we believe also benefit our customers. View our Privacy Policy to learn more about these interests and when we may process your information in this way.</p>
-                    <p className="text-[#6b6b6b] text-center text-0.5xl mt-9 relative right-10">Copyright ©2021 All rights reserved.</p>
+                    <p className="text-[#6b6b6b] text-left text-5xl left-4 mt-20 relative right-6">Fintract Global takes your privacy very seriously. We may process</p>
+                    <p className="text-[#6b6b6b] text-left text-5xl left-4 relative right-6"> your personal information for carefully considered and specific</p>
+                    <p className="text-[#6b6b6b] text-left text-5xl left-4 relative right-6">purposes which are in our interests and enable us to enhance the</p>
+                    <p className="text-[#6b6b6b] text-left text-5xl left-4 relative right-6">services we provide, but which we believe also benefit our </p>
+                    <p className="text-[#6b6b6b] text-left text-5xl left-4 relative right-6">customers. View our Privacy Policy to learn more about these</p>
+                    <p className="text-[#6b6b6b] text-left text-5xl left-4 relative right-6"> interests and when we may process your information in this way.</p>
+                    <p className="text-[#6b6b6b] text-center text-5xl mt-20 relative right-24">Copyright ©2021 All rights reserved.</p>
                 </div>
             </div>
         </>
