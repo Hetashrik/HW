@@ -54,8 +54,9 @@ function Contact() {
                     </div>
                 </div>
                 <div>
-                    <p className="text-white font-bold relative left-3">_________________________________________________________________________________________________________________________________________________________________________________</p>
-                    <p className="text-white relative top-8 left-3">Fintract Global takes your privacy very seriously. We may process your personal information for carefully considered and specific purpose which are in our interests and enable us to enhance the service we provide.</p>
+                    <p className="text-white font-bold relative left-3">_______________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+                    <p className="text-white relative top-8 left-3">Fintract Global takes your privacy very seriously. We may process your personal information for carefully considered and specific purpose which are in our interests and</p>
+                    <p className="text-white relative top-8 left-3"> enable us to enhance the service we provide.</p>
                     <p className="text-white font-serif relative top-20 left-3">© Copyright 2023. All rights reserved</p>
                     <p className="text-white font-serif relative top-[3.5rem] text-right right-4">Privacy Policy</p>
                 </div>
@@ -79,7 +80,7 @@ function Contact() {
                         <Image src={fb_mv} width="150" height="100" />
                         <Image src={linkedin_mv} width="150" height="100" />
                     </div>
-                    <p className="text-[#6b6b6b] mt-10 relative right-20"><hr /></p>
+                    <p className="text-[#6b6b6b] mt-10 relative right-20"></p>
                     <div className="flex mt-20 space-x-7">
                         <Image src={location} width="150" height="150" />
                         <p className="text-white relative top-[2.5rem] text-6xl">Address</p>
