@@ -38,11 +38,11 @@ function WhyChoose() {
                 </div>
             </div>
 
-            <div className="hidden max-lg:block top-80 bg-why-choose relative w-[1560px]">
+            <div className="hidden max-lg:block top-80 bg-why-choose relative w-[1645px]">
 
-                <Image src={why_choose_mv} alt="whychoose" className="relative bottom-[12.8rem] h-[1700px] w-[1560px]" />
+                <Image src={why_choose_mv} alt="whychoose" className="relative bottom-[12.8rem] h-[1700px] w-[1645px]" />
 {/* 
-                <Image src={why_choose} alt="whychoose" width="100%" className="relative bottom-[12.8rem] h-[1560px]" />
+                <Image src={why_choose} alt="whychoose" width="100%" className="relative bottom-[12.8rem] h-[1645px]" />
 
 
                 <p className="relative text-left -right-[0.5rem] bottom-[43rem] text-white font-medium text-2xl ml-4">Why choose Fintract Global</p>
