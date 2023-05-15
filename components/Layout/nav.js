@@ -21,47 +21,7 @@ function Nav() {
                     <div>
                         <div className="flex justify-between">
                             <div className="flex">
-                                <div className="md:hidden absolute inset-y-0 left-0 flex items-center  bg-black block sm:hidden w-[1560px]">
-                                    <button
-                                        className="relative -top-[19.5rem] inline-flex items-center justify-center p-2 rounded-md text-white bg-black w-[100%] h-[100%]"
-                                        onClick={() => setNavbar(!navbar)}
-                                    >
-                                        <span className="sr-only">Open main menu</span>
-                                        {navbar ? (
-                                            <>
-                                                <FiX className="block h-6 w-6 relative -right-16 bottom-[3.6rem]" />
-                                                <div className="sm:hidden absolute top-[321px] left-0 right-0 bottom-0 flex w-[1556px] h-[3864px] ease-in duration-300 mt-14 z-10 bg-black">
-                                                    <ul className="relative left-[34rem] top-40">
-                                                        <li className="bg-black ml-10 text-xl hover:text-gray-500 w-[450px] text-center relative right-14">Home</li>
-                                                        <li className="bg-black ml-10 text-xl hover:text-gray-500 w-[450px] text-center relative right-14">More</li>
-                                                        <li className="bg-black ml-10 text-xl hover:text-gray-500 w-[450px] text-center relative right-14">Products</li>
-                                                        <li className="bg-black ml-10 text-xl hover:text-gray-500 w-[450px] text-center relative right-14">Contact</li>
-                                                    </ul>
-                                                </div>
-                                                {/* <ul className="bg-black relative top-16 right-9">
-
-                                                    <li className="m-4">Home</li>
-                                                    <li className="m-4">More</li>
-                                                    <li className="m-4">Our Products</li>
-                                                    <li className="m-4">Contact</li>
-                                                </ul> */}
-                                            </>
-                                        ) : (
-                                            <FiMenu className="block h-6 w-6 relative -right-[3.2rem] bottom-[3.7rem]" />
-                                        )}
-                                    </button>
-                                    <div className="w-px h-12 bg-[#676767] ml-1 mt-0 relative left-4 bottom-[19.5rem]"></div>
-                                    <Image src={FG_LOGO_white_4} alt="FG_LOGO" width="32" height="32" className="w-[45px] h-[34.55px] relative -right-[4.5rem] mt-[1.75px] bottom-[23rem]" />
-                                    {/* <button className="bg-blue-600 p-1 text-white mx-2 relative bottom-[19rem] -right-[10.5rem] w-[200px]">Log in</button> */}
-                                    <button className="bg-blue-600 px-3  text-white mx-2 relative bottom-[23rem] left-[83rem] w-[91px]"><p>Login</p></button>
-                                    <div>
-                                        <input type="text" placeholder="Search" className="relative bottom-[18rem] right-[5rem] bg-white outline-none text-[#bbbaba] rounded-md p-1 leading-[2.15] w-[1400px]" />
-                                        <div className="justify-end bg-[#FF8A00] w-[38px] h-[37px] rounded-md text-center mr-0.5 relative bottom-[20.7rem] left-[80rem]">
-                                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-white w-6 h-6 mt-1 ml-2 relative top-1" height="1em" width="1em " xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-                                        </div>
-                                    </div>
-                                </div>
-
+                               
 
 
 
@@ -108,3 +68,4 @@ function Nav() {
 }
 
 export default Nav;
+
