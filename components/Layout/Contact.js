@@ -63,7 +63,7 @@ function Contact() {
             </div>
 
 
-            <div className="hidden max-lg:block bg-black top-96 h-[2500px] relative w-[1750px]">
+            <div className="hidden max-lg:block bg-[#ea580c] top-96 h-[2500px] relative w-[1750px]">
                 <div className="relative top-12 left-20">
                     <Image src={FG_LOGO_white_4} width="200" height="225" />
                     <h1 className="text-white text-9xl mt-20">Fintract Global</h1>
@@ -102,13 +102,13 @@ function Contact() {
                     </div>
                     <p className="text-white relative bottom-[1.75rem] left-[10.5rem] text-4xl">contact@fintractglobal.com</p>
 
-                    <p className="text-[#6b6b6b] text-left text-5xl left-4 mt-20 relative right-6">Fintract Global takes your privacy very seriously. We may process</p>
-                    <p className="text-[#6b6b6b] text-left text-5xl left-4 relative right-6"> your personal information for carefully considered and specific</p>
-                    <p className="text-[#6b6b6b] text-left text-5xl left-4 relative right-6">purposes which are in our interests and enable us to enhance the</p>
-                    <p className="text-[#6b6b6b] text-left text-5xl left-4 relative right-6">services we provide, but which we believe also benefit our </p>
-                    <p className="text-[#6b6b6b] text-left text-5xl left-4 relative right-6">customers. View our Privacy Policy to learn more about these</p>
-                    <p className="text-[#6b6b6b] text-left text-5xl left-4 relative right-6"> interests and when we may process your information in this way.</p>
-                    <p className="text-[#6b6b6b] text-center text-5xl mt-20 relative right-24">Copyright ©2021 All rights reserved.</p>
+                    <p className="text-white text-left text-5xl left-4 mt-20 relative right-6">Fintract Global takes your privacy very seriously. We may process</p>
+                    <p className="text-white text-left text-5xl left-4 relative right-6"> your personal information for carefully considered and specific</p>
+                    <p className="text-white text-left text-5xl left-4 relative right-6">purposes which are in our interests and enable us to enhance the</p>
+                    <p className="text-white text-left text-5xl left-4 relative right-6">services we provide, but which we believe also benefit our </p>
+                    <p className="text-white text-left text-5xl left-4 relative right-6">customers. View our Privacy Policy to learn more about these</p>
+                    <p className="text-white text-left text-5xl left-4 relative right-6"> interests and when we may process your information in this way.</p>
+                    <p className="text-white text-center text-5xl mt-20 relative right-24">Copyright ©2021 All rights reserved.</p>
                 </div>
             </div>
         </>
