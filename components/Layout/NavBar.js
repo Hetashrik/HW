@@ -33,7 +33,8 @@ function NavBar() {
                 </div>
             </nav >
 
-            <section className="bg-black hidden max-lg:block w-[1750px] h-[400px]">
+            <section className="bg-black sm:hidden w-[1750px] h-[400px]">
+            {/* <section className="bg-black hidden max-lg:block w-[1750px] h-[400px]"> */}
                 <button type="button" onClick={() => setNavbar(!navbar)}>
                     <span className="sr-only">Open main menu</span>
                     <svg

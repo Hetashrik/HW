@@ -15,7 +15,7 @@ import Amazon from "../../public/images/Amazon.png";
 function BigCompany() {
     return (
         <>
-            <div className="relative bottom-20 hidden sm:block">
+            <div className="relative bottom-20 hidden sm:flex">
                 <h1 className="font-sans font-bold text-3xl text-center">Many big company trusted us</h1>
             </div>
             <div className="items-center relative bottom-16 left-32 hidden sm:block">
@@ -32,7 +32,8 @@ function BigCompany() {
             </div>
 
 
-            <div className="bg-[#595959] hidden max-lg:block top-[7.25rem] relative w-[1750px]">
+            <div className="bg-[#595959] sm:hidden top-[7.25rem] relative w-[1750px]">
+            {/* <div className="bg-[#595959] hidden max-lg:block top-[7.25rem] relative w-[1750px]"> */}
                 <h1 className="font-sans font-semibold text-6xl text-center text-white p-4 py-6">Many big company trusted us</h1>
                 <p className="text-white text-center relative mt-9 text-4xl">Our clients include multinational corporations,</p>
                 <p className="text-white text-center relative text-4xl"> financial institutions, private equity funds, domestic corporations, joint</p>
