@@ -38,7 +38,8 @@ function WhyChoose() {
                 </div>
             </div>
 
-            <div className="sm:hidden top-80 bg-why-choose relative w-[1750px]">
+            <div className="sm:hidden top-80 bg-why-choose relative">
+            {/* <div className="sm:hidden top-80 bg-why-choose relative w-[1750px]"> */}
             {/* <div className="hidden max-lg:block top-80 bg-why-choose relative w-[1750px]"> */}
 
                 <Image src={why_choose_mv} alt="whychoose" className="relative bottom-[12.8rem] h-[1700px] w-[1750px]" />

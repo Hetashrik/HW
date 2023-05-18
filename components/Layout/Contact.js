@@ -63,7 +63,8 @@ function Contact() {
             </div>
 
 
-            <div className="sm:hidden bg-[#ea580c] top-96 h-[2500px] relative w-[1750px]">
+            <div className="sm:hidden bg-[#ea580c] top-96 h-[2500px] relative">
+            {/* <div className="sm:hidden bg-[#ea580c] top-96 h-[2500px] relative w-[1750px]"> */}
             {/* <div className="hidden max-lg:block bg-[#ea580c] top-96 h-[2500px] relative w-[1750px]"> */}
                 <div className="relative top-12 left-20">
                     <Image src={FG_LOGO_white_4} width="200" height="225" />
