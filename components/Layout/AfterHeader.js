@@ -17,6 +17,9 @@ function AfterHeader() {
             </div>
         </div>
 
+
+        <section className="w-[1750px] relative">
+
         <div className="md:hidden relative -top-4 bg-cover">
         {/* <div className="sm:hidden relative -top-4 bg-cover w-[1750px]"> */}
         {/* <div className="hidden max-lg:block relative -top-4 bg-cover w-[1750px]"> */}
@@ -32,6 +35,7 @@ function AfterHeader() {
             <p className="text-left text-white text-2xl font-sans relative top-14 left-4 ml-11 mt-11">Our vision is to enrich customer and stakeholder</p>
             <p className="text-left text-white text-2xl font-sans relative top-14 left-4 ml-11">experience, embrace niche tools and technology</p>
         </div>
+        </section>
         </>
     );
 }
