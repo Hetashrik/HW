@@ -75,38 +75,41 @@ function Aboutus() {
         </div>
       </div>
 
-      <div className="bg-white -top-[8.5rem] md:hidden relative h-[1000px]">
-      <div className="w-[1750px]">
+      <section className="w-[1750px] relative">
 
-      {/* <div className="bg-white -top-[8.5rem] hidden max-lg:block relative w-[1750px] h-[1000px]"> */}
-        <p className="relative top-6 text-center font-medium text-9xl">About Us</p>
-        <p className="relative top-[5.8rem] text-center font-medium text-7xl">We have the best attorney for your</p>
-        <p className="relative top-[5.8rem] text-center font-medium text-7xl">best support</p>
-      </div>
+
+        <div className="bg-white -top-[8.5rem] md:hidden relative h-[1000px]">
+
+
+          {/* <div className="bg-white -top-[8.5rem] hidden max-lg:block relative w-[1750px] h-[1000px]"> */}
+          <p className="relative top-6 text-center font-medium text-9xl">About Us</p>
+          <p className="relative top-[5.8rem] text-center font-medium text-7xl">We have the best attorney for your</p>
+          <p className="relative top-[5.8rem] text-center font-medium text-7xl">best support</p>
+        </div>
 
         <section>
 
-        <div className=" w-[900px] bg-[#8db2fa] shadow-md rounded-md p-4 relative top-56 justify-center left-80">
-        <p className="p-16 text-justify text-4xl font-semibold">{texts[currentTextIndex].text}</p>
-          <button className="absolute top-1/2 left-2 transform -translate-y-1/2 sm:hidden" onClick={previousText}>
-            <Image src={white_circle} alt="" width="40" height="50" className="relative right-2" />
-            <Image src={left_arrow} alt="" width="30" height="30" className="relative bottom-[2.1rem] right-1" />
-          </button>
-          <button className="absolute top-1/2 right-2 transform -translate-y-1/2 sm:hidden" onClick={nextText}>
-            <Image src={white_circle} alt="" width="40" height="50" className="relative left-2" />
-            <Image src={right_arrow} alt="" width="30" height="30" className="relative bottom-[2.1rem] left-3" />
-          </button>
-          <button className="absolute bottom-2 left-1/2 transform -translate-x-1/2 hidden sm:block" onClick={previousText}>
-            <Image src={white_circle} alt="" width="40" height="50" className="relative right-2" />
-            <Image src={left_arrow} alt="" width="30" height="30" className="relative bottom-[2.1rem] right-1" />
-          </button>
-          <button className="absolute bottom-2 right-1/2 transform translate-x-1/2 hidden sm:block" onClick={nextText}>
-            <Image src={white_circle} alt="" width="40" height="50" className="relative left-2" />
-            <Image src={right_arrow} alt="" width="30" height="30" className="relative bottom-[2.1rem] left-3" />
-          </button>
-        </div>
+          <div className=" w-[900px] bg-[#8db2fa] shadow-md rounded-md p-4 relative top-56 justify-center left-80">
+            <p className="p-16 text-justify text-4xl font-semibold">{texts[currentTextIndex].text}</p>
+            <button className="absolute top-1/2 left-2 transform -translate-y-1/2 sm:hidden" onClick={previousText}>
+              <Image src={white_circle} alt="" width="40" height="50" className="relative right-2" />
+              <Image src={left_arrow} alt="" width="30" height="30" className="relative bottom-[2.1rem] right-1" />
+            </button>
+            <button className="absolute top-1/2 right-2 transform -translate-y-1/2 sm:hidden" onClick={nextText}>
+              <Image src={white_circle} alt="" width="40" height="50" className="relative left-2" />
+              <Image src={right_arrow} alt="" width="30" height="30" className="relative bottom-[2.1rem] left-3" />
+            </button>
+            <button className="absolute bottom-2 left-1/2 transform -translate-x-1/2 hidden sm:block" onClick={previousText}>
+              <Image src={white_circle} alt="" width="40" height="50" className="relative right-2" />
+              <Image src={left_arrow} alt="" width="30" height="30" className="relative bottom-[2.1rem] right-1" />
+            </button>
+            <button className="absolute bottom-2 right-1/2 transform translate-x-1/2 hidden sm:block" onClick={nextText}>
+              <Image src={white_circle} alt="" width="40" height="50" className="relative left-2" />
+              <Image src={right_arrow} alt="" width="30" height="30" className="relative bottom-[2.1rem] left-3" />
+            </button>
+          </div>
         </section>
-      </div>
+      </section>
 
     </>
   );
