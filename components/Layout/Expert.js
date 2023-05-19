@@ -333,7 +333,7 @@ function Expert() {
             </div>
 
 
-             <div className="relative top-[11.25rem] h-[76rem] sm:hidden">
+             <div className="relative top-[11.25rem] h-[76rem] md:hidden">
              {/* <div className="w-[1750px] relative top-[11.25rem] h-[76rem] sm:hidden"> */}
              {/* <div className="w-[1750px] relative top-[11.25rem] h-[76rem] hidden max-lg:block"> */}
                 <p className="text-center font-sans font-bold text-7xl">What we are expert at</p>
