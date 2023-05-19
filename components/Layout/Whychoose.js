@@ -38,6 +38,8 @@ function WhyChoose() {
                 </div>
             </div>
 
+            <section className="w-[1570px] relative">
+
             <div className="md:hidden top-80 bg-why-choose relative">
             {/* <div className="sm:hidden top-80 bg-why-choose relative w-[1750px]"> */}
             {/* <div className="hidden max-lg:block top-80 bg-why-choose relative w-[1750px]"> */}
@@ -77,6 +79,7 @@ function WhyChoose() {
 
             <div>
             </div>
+            </section>
         </>
     );
 }
