@@ -76,10 +76,13 @@ function Aboutus() {
       </div>
 
       <div className="bg-white -top-[8.5rem] md:hidden relative h-[1000px]">
+      <section className="w-[1750px]">
+
       {/* <div className="bg-white -top-[8.5rem] hidden max-lg:block relative w-[1750px] h-[1000px]"> */}
         <p className="relative top-6 text-center font-medium text-9xl">About Us</p>
         <p className="relative top-[5.8rem] text-center font-medium text-7xl">We have the best attorney for your</p>
         <p className="relative top-[5.8rem] text-center font-medium text-7xl">best support</p>
+      </section>
 
         <section>
 
