@@ -333,6 +333,8 @@ function Expert() {
             </div>
 
 
+            <section className="w-[1750px] relative">
+
              <div className="relative top-[11.25rem] h-[76rem] md:hidden">
              {/* <div className="w-[1750px] relative top-[11.25rem] h-[76rem] sm:hidden"> */}
              {/* <div className="w-[1750px] relative top-[11.25rem] h-[76rem] hidden max-lg:block"> */}
@@ -448,6 +450,7 @@ function Expert() {
                     </div>
                 </section>
             </div> 
+            </section>
         </>
     );
 }

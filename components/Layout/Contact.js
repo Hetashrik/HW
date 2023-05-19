@@ -62,6 +62,7 @@ function Contact() {
                 </div>
             </div>
 
+            <section className="w-[1750px] relative">
 
             <div className="md:hidden bg-[#ea580c] top-96 h-[2500px] relative">
             {/* <div className="sm:hidden bg-[#ea580c] top-96 h-[2500px] relative w-[1750px]"> */}
@@ -113,6 +114,7 @@ function Contact() {
                     <p className="text-white text-center text-5xl mt-20 relative right-24">Copyright ©2021 All rights reserved.</p>
                 </div>
             </div>
+            </section>
         </>
 
     );

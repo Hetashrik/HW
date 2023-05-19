@@ -18,8 +18,8 @@ function AfterHeader() {
         </div>
 
 
-        <section className="w-[1570px] relative">
-
+        <section className="w-[1750px] relative">
+            
         <div className="md:hidden relative -top-4 bg-cover">
         {/* <div className="sm:hidden relative -top-4 bg-cover w-[1750px]"> */}
         {/* <div className="hidden max-lg:block relative -top-4 bg-cover w-[1750px]"> */}

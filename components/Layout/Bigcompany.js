@@ -15,8 +15,8 @@ import Amazon from "../../public/images/Amazon.png";
 function BigCompany() {
     return (
         <>
-            <div className="relative bottom-20 hidden sm:flex">
-                <h1 className="font-sans font-bold text-3xl text-center">Many big company trusted us</h1>
+            <div className="relative bottom-20 hidden sm:flex left-[400px]">
+                <h1 className="font-sans font-bold text-5xl text-center">Many big company trusted us</h1>
             </div>
             <div className="items-center relative bottom-16 left-32 hidden sm:block">
             <div className="flex">
@@ -44,12 +44,12 @@ function BigCompany() {
                 <p className="text-white text-center relative text-4xl">government.</p>
 
                 <div>
-                    <div className="flex relative -right-[19rem]">
+                    <div className="flex relative -right-[22rem]">
                         <Image className="items-center relative left-[16rem] mt-16 w-[280px] h-[94px]" src={paypal_mv} alt="PayPalLogo" />
 
                         <Image className="items-center relative left-[18rem] mt-16 w-[280px] h-[94px] ml-5" src={google_mv} alt="GoogleLogo" width="35" height="50" />
                     </div>
-                    <div className="flex relative -right-[22rem] bottom-6">
+                    <div className="flex relative -right-[26rem] bottom-6">
                         <Image className="items-center relative left-[16rem] mt-16 w-[304px] h-[112px]" src={uni_mv} alt="university" />
                         <Image className="items-center relative left-[18rem] mt-16 w-[212px] h-[93px]" src={amazon_mv} alt="AmazonLogo" />
                     </div>
