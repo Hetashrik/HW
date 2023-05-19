@@ -31,6 +31,7 @@ function BigCompany() {
             </div>
             </div>
 
+            <section className="w-[1750px] relative">
 
             <div className="bg-[#595959] md:hidden top-[7.25rem] relative">
             {/* <div className="bg-[#595959] sm:hidden top-[7.25rem] relative w-[1750px]"> */}
@@ -43,17 +44,18 @@ function BigCompany() {
                 <p className="text-white text-center relative text-4xl">government.</p>
 
                 <div>
-                    <div className="flex relative -right-[14rem]">
+                    <div className="flex relative -right-[19rem]">
                         <Image className="items-center relative left-[16rem] mt-16 w-[280px] h-[94px]" src={paypal_mv} alt="PayPalLogo" />
 
                         <Image className="items-center relative left-[18rem] mt-16 w-[280px] h-[94px] ml-5" src={google_mv} alt="GoogleLogo" width="35" height="50" />
                     </div>
-                    <div className="flex relative -right-[14rem] bottom-6">
+                    <div className="flex relative -right-[22rem] bottom-6">
                         <Image className="items-center relative left-[16rem] mt-16 w-[304px] h-[112px]" src={uni_mv} alt="university" />
                         <Image className="items-center relative left-[18rem] mt-16 w-[212px] h-[93px]" src={amazon_mv} alt="AmazonLogo" />
                     </div>
                 </div>
             </div>
+            </section>
         </>
     );
 }
