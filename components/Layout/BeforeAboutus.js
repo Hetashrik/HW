@@ -6,6 +6,8 @@ function BeforeAboutus() {
     return (
       <>
       {/* <p></p> */}
+      <section className="w-[1750px] relative">
+
         <div className="md:hidden relative -top-28">
         {/* <div className="hidden sm:flex relative w-[1750px] -top-28"> */}
         {/* <div className="hidden max-lg:block relative w-[1750px] -top-28"> */}
@@ -16,6 +18,7 @@ function BeforeAboutus() {
         <p className="relative text-white bottom-[30rem] ml-7">User already registered and signing up</p>
         <p className="relative text-white bottom-[30rem] ml-7"> for our product</p>
         </div>
+      </section>
       </>  
     );
 }
