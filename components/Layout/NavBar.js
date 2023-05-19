@@ -33,26 +33,28 @@ function NavBar() {
                 </div>
             </nav >
 
-            <section className="bg-black md:hidden h-[400px]">
-            {/* <section className="bg-black sm:hidden w-[1750px] h-[400px]"> */}
-            {/* <section className="bg-black hidden max-lg:block w-[1750px] h-[400px]"> */}
+            <section className="w-[1750px] relative">
+
+            <div className="bg-black md:hidden h-[400px]">
+                {/* <section className="bg-black sm:hidden w-[1750px] h-[400px]"> */}
+                {/* <section className="bg-black hidden max-lg:block w-[1750px] h-[400px]"> */}
                 <button type="button" onClick={() => setNavbar(!navbar)}>
                     <span className="sr-only">Open main menu</span>
                     <svg
-          className="h-6 w-6 fill-current"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        ></svg>
+                        className="h-6 w-6 fill-current"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                    ></svg>
                     {navbar ? (
 
                         <Image src={close_menu} className="relative" />
                     ) : (
                         <Image src={hamburger_menu} className="relative p-11" width={200} />
-                        
+
                     )}
                 </button>
                 <div className="w-px h-[100px] bg-[#676767] ml-1 mt-0 relative bottom-[150px] left-48"></div>
-                <Image src={FG_LOGO_white_4} className="bottom-64 relative left-52"/>
+                <Image src={FG_LOGO_white_4} className="bottom-64 relative left-52" />
                 <button className="bg-blue-600 px-3 py-2 leading-tight text-white mx-1 h-[100px] w-[250px] relative bottom-[365px] text-6xl left-[1223px]">Login</button>
                 <input type="text" placeholder="Search" className=" flex flex-row w-[1450px] h-[100px]  ml-[0px] mt-16  rounded-md  bg-white items-center mb-3  shadow-[0_0px_7px_-1px_rgba(135, 153, 219, 1)] bg-white outline-none text-[#BBBABA] flex-1 ml-4  mt-1 relative bottom-80 left-11 text-7xl" />
                 <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" className="text-white w-[85px] h-[85px] mt-1 ml-2  justify-end bg-[#FF8A00] w-[85px] h-[85px] rounded-md text-center mr-0.5 relative bottom-[423px] left-[1370px]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
@@ -60,7 +62,7 @@ function NavBar() {
                 {navbar && (
                     <div className="absolute z-10 top-0 left-0 w-[1750px] bg-black h-[10000px]">
                         <div className="px-2 pt-2 pb-3">
-                        <Image src={close_menu} className="relative" width={200} onClick={() => setNavbar(!navbar)} />
+                            <Image src={close_menu} className="relative" width={200} onClick={() => setNavbar(!navbar)} />
                             <ul className="items-center relative top-72 left-96">
                                 <li className="text-white text-9xl mt-11 p-5">Home</li>
                                 <li className="text-white text-9xl mt-11 p-5">More</li>
@@ -71,6 +73,7 @@ function NavBar() {
                         </div>
                     </div>
                 )}
+            </div>
             </section>
         </>
     );
