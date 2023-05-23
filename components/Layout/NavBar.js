@@ -33,9 +33,9 @@ function NavBar() {
                 </div>
             </nav >
 
-            <section className="w-[1750px] relative">
+            {/* <section className="w-[1750px] relative"> */}
 
-            <div className="bg-black md:hidden h-[400px]">
+            <div className="bg-black md:flex h-[400px]">
                 {/* <section className="bg-black sm:hidden w-[1750px] h-[400px]"> */}
                 {/* <section className="bg-black hidden max-lg:block w-[1750px] h-[400px]"> */}
                 <button type="button" onClick={() => setNavbar(!navbar)}>
@@ -74,7 +74,7 @@ function NavBar() {
                     </div>
                 )}
             </div>
-            </section>
+            {/* </section> */}
         </>
     );
 }
