@@ -75,7 +75,7 @@ function Aboutus() {
         </div>
       </div>
 
-      {/* <section className="relative"> */}
+      {/* <section className=" relative"> */}
 
 
         <div className="bg-white -top-[8.5rem] md:hidden relative h-[1000px] right-28">
