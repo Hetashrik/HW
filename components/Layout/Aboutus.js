@@ -75,7 +75,7 @@ function Aboutus() {
         </div>
       </div>
 
-      <section className="w-[1750px] relative">
+      {/* <section className="relative"> */}
 
 
         <div className="bg-white -top-[8.5rem] md:hidden relative h-[1000px] right-28">
@@ -109,7 +109,7 @@ function Aboutus() {
             </button>
           </div>
         </section>
-      </section>
+      {/* </section> */}
 
     </>
   );
