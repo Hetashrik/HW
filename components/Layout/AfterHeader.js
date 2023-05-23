@@ -18,15 +18,15 @@ function AfterHeader() {
         </div>
 
 
-        <section className="w-[1750px] relative">
+        {/* <section className="w-[1750px] relative"> */}
             
-        <div className="md:hidden relative -top-4 bg-cover">
+        <div className="md:flex relative -top-4 bg-cover">
         {/* <div className="sm:hidden relative -top-4 bg-cover w-[1750px]"> */}
         {/* <div className="hidden max-lg:block relative -top-4 bg-cover w-[1750px]"> */}
-        <Image src={AfterHeader_mv} alt="FG_LOGO" height="220" className="relative w-[1750px]" />
+        <Image src={AfterHeader_mv} alt="FG_LOGO" height="220" className="relative" />
         </div>
         {/* <div className="bg-[#332b27] sm:hidden -top-[1.6rem] h-[46rem] relative w-[1750px]"> */}
-        <div className="bg-[#332b27] md:hidden -top-[1.6rem] h-[46rem] relative w-[1750px]">
+        <div className="bg-[#332b27] md:flex -top-[1.6rem] h-[46rem] relative">
             <p className="text-left text-white font-medium text-9xl font-sans relative top-14 left-4 m-2 ml-11">FINTRACT</p>
             <p className="text-left text-white font-medium text-9xl font-sans relative top-14 left-4 m-2 ml-11">GLOBAL</p>
             <p className="text-left text-white text-5xl font-sans relative top-14 font-semibold left-4 m-5 mt-11 ml-11">WE HELP FOR PROFESSIONAL</p>
@@ -35,7 +35,7 @@ function AfterHeader() {
             <p className="text-left text-white text-2xl font-sans relative top-14 left-4 ml-11 mt-11">Our vision is to enrich customer and stakeholder</p>
             <p className="text-left text-white text-2xl font-sans relative top-14 left-4 ml-11">experience, embrace niche tools and technology</p>
         </div>
-        </section>
+        {/* </section> */}
         </>
     );
 }
