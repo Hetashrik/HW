@@ -33,7 +33,7 @@ function NavBar() {
                 </div>
             </nav >
 
-            <section className="md:flex relative">
+            <section className="w-[1750px] relative">
 
             <div className="bg-black md:hidden h-[400px]">
                 {/* <section className="bg-black sm:hidden w-[1750px] h-[400px]"> */}

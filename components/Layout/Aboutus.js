@@ -75,7 +75,7 @@ function Aboutus() {
         </div>
       </div>
 
-      {/* <section className=" relative"> */}
+      <section className="w-[1750px] relative">
 
 
         <div className="bg-white -top-[8.5rem] md:hidden relative h-[1000px] right-28">
@@ -89,7 +89,7 @@ function Aboutus() {
 
         <section>
 
-          <div className=" w-[900px] bg-[#8db2fa] shadow-md rounded-md p-4 relative bottom-[550px] justify-center left-80">
+          <div className=" w-[900px] bg-[#8db2fa] shadow-md rounded-md p-4 relative bottom-[550px] justify-center left-80 md:hidden">
             <p className="p-16 text-justify text-4xl font-semibold">{texts[currentTextIndex].text}</p>
             <button className="absolute top-1/2 left-2 transform -translate-y-1/2 sm:hidden" onClick={previousText}>
               <Image src={white_circle} alt="" width="40" height="50" className="relative right-2" />
@@ -109,7 +109,7 @@ function Aboutus() {
             </button>
           </div>
         </section>
-      {/* </section> */}
+      </section>
 
     </>
   );
