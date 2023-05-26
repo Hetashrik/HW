@@ -38,7 +38,7 @@ function WhyChoose() {
                 </div>
             </div>
 
-            <section className="w-[1650px] relative">
+            <section className="w-[1750px] relative">
 
             <div className="md:hidden top-80 bg-why-choose relative">
             {/* <div className="sm:hidden top-80 bg-why-choose relative w-[1750px]"> */}
